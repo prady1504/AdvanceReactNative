@@ -53,7 +53,6 @@ const numColumns = Math.floor(screenWidth / MIN_ITEM_WIDTH);
     setLoading(false);
   };
 
-  // ⬇️ run when search or category changes
   useEffect(() => {
     fetchCategories();
     fetchProducts(true);
